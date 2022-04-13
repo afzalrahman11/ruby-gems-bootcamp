@@ -1,5 +1,5 @@
 # README
 
 # Changes
-- Add margin to the left of the search box
-- Reference to friendly_id : https://github.com/norman/friendly_id
+- Add users controller
+- Reference to devise-trackable-user : https://github.com/heartcombo/devise/wiki/How-To%3A-Add-%3Atrackable-to-Users
