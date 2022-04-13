@@ -18,7 +18,7 @@
             .fa.fa-plus
             New Course
 
-      .form-inline.my-2.my-lg-0
+      .form-inline.my-2.my-lg-0.ms-auto
         = form_tag(courses_path, method: :get) do
           .input-group
             = text_field_tag :title, params[:title], autocomplete: 'off', placeholder: "Search", class: 'form-control-sm'
