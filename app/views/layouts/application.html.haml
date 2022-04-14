@@ -11,10 +11,13 @@
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
     = stylesheet_pack_tag 'application', 'data-turbolinks-track': 'reload'
-  %body
+  %body.d-flex.flex-column
     = render 'layouts/header'
-    = render 'layouts/messages'
-    .container
-      %p
-      = yield
-    %br
+    #page-content
+      = render 'layouts/messages'
+      .container
+        %p
+        = yield
+      %br
+    .bg-dark.text-white
+      = render 'layouts/footer'
