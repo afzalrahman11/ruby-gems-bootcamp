@@ -1,3 +1,3 @@
 # README
 
-- Add rolify gem : [https://github.com/RolifyCommunity/rolify]
+- Add pundit gem : [https://github.com/varvet/pundit] or [https://www.rubydoc.info/gems/pundit]
