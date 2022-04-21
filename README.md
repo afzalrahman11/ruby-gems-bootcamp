@@ -1,3 +1,3 @@
 # README
 
-- Add pundit gem : [https://github.com/varvet/pundit] or [https://www.rubydoc.info/gems/pundit]
+- Add friendly_id to Users : [https://github.com/norman/friendly_id]
